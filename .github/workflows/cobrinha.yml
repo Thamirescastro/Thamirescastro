@@ -1,0 +1,25 @@
+nome:Gerar Dados
+
+sobre:
+  agendar:#executar a cada 12 horas
+    -cron:"* */12 * * *"
+  fluxo de trabalho_despacho:
+
+empregos:
+  construir:
+    nome:Trabalhos para atualizar dados
+    continua:ubuntu-mais-último
+    passos:
+      #Animação de cobra
+      -usos:Platane/snk@master
+        eu ia:gif de cobra
+        com:
+          nome_de_usuário_do_github:rafaballerini
+          caminho_de_saída_svg:dist/github-contribution-grid-snake.svg
+
+      -usos:crazy-max/ghaction-github-pages@v2.1.3
+        com:
+          ramo_alvo:saída
+          diretório_de_compilação:distância
+        ambiente:
+          TOKEN_GITHUB:${{ segredos.GITHUB_TOKEN }}
