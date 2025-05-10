@@ -3,6 +3,10 @@ Olá 👋 Meu nome é Thamires Castro
 
 Estou cursando ciências da computação
 
+Querendo sempre aprimorar mais meus conhecimetos
+
+No momento estou como estudante universitária
+
 ✉️ Você pode entrar em contato comigo em (e-mail) [thamiresmendon96@gmail.com](mailto:thamiresmendon96@gmail.com)
 
 ###
